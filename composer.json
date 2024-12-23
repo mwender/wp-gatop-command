@@ -1,0 +1,16 @@
+{
+    "name": "mwender/wp-gatop-command",
+    "description": "A WP CLI command to fetch top posts from Google Analytics.",
+    "type": "wordpress-cli-package",
+    "require": {
+        "google/apiclient": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MWender\\GATopCommand\\": "src/"
+        }
+    },
+    "bin": [
+        "bin/wp-gatop-command.php"
+    ]
+}
